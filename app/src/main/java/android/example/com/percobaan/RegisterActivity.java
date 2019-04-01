@@ -1,5 +1,6 @@
 package android.example.com.percobaan;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -20,11 +21,18 @@ public class RegisterActivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     EditText Username, E_mail, Password, ConfirmPass;
     Button Register_btn;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class RegisterActivity extends AppCompatActivity {
+>>>>>>> 8f0f0f745a9528aff8ead624ac2af2dd21c82725
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_register);
+<<<<<<< HEAD
         getSupportActionBar().setTitle("Register Activity");
 
         Register_btn = (Button)findViewById(R.id.btn_regist);
@@ -91,3 +99,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 }
+=======
+    }
+}
+>>>>>>> 8f0f0f745a9528aff8ead624ac2af2dd21c82725
