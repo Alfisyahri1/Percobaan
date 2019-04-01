@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
+        applicationId "android.example.com.apayadong"
         applicationId "android.example.com.percobaan"
         minSdkVersion 15
         targetSdkVersion 28
@@ -28,3 +29,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 apply plugin: 'com.google.gms.google-services'
+
